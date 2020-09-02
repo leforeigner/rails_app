@@ -1,0 +1,23 @@
+<%= form_with(model: @blog, local: true) do |form| %>
+
+  <div class="予定">
+    <%= form.label :title %>
+    <%= form.text_field :title %>
+  </div>
+
+    <div class="時間">
+    <%= form.label :start_time %>
+    <%= form.datetime_select :start_time %>
+  </div>
+
+  <div class="内容">
+    <%= form.label :content %>
+    <%= form.text_field :content %>
+  </div>
+
+
+  <div class="確定">
+    <%= form.submit %>
+  </div>
+
+<% end %>
