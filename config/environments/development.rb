@@ -7,8 +7,8 @@ Rails.application.configure do
   # every request. This slows down response time but is perfect for development
   # since you don't have to restart the web server when you make code changes.
   config.cache_classes = false
-  at=error code=H10 desc="App crashed" method=GET path="/?start_date=2020-10-05" host=rails-newapp.herokuapp.com request_id=6a1e2051-f579-48ce-8509-1242a48d5f96 fwd="133.106.198.171" dyno= connect= service= status=503 bytes= protocol=https
-
+  
+  config.hosts << "localhost-nickffitsgerald-1.paiza-user-free.cloud"
   # Do not eager load code on boot.
   config.eager_load = false
 

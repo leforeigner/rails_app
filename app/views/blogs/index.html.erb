@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Calendar</h1>
+<center><h1>Calendar</h1></center>
 
 <table>
   <thead>
@@ -25,9 +25,10 @@
 </table>
 
 <br>
-
+<td align="right">
 <%= link_to '予定を追加する', new_blog_path %>
-
+</td>
+<center>
 <%= month_calendar events: @blogs do |date, blogs| %>
   <%= date.day %>
 
@@ -37,3 +38,4 @@
     </div>
   <% end %>
 <% end %>
+</center>
