@@ -9,6 +9,7 @@ gem 'simple_calendar'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 gem 'bootstrap'
+gem 'carrierwave'
 gem 'data-confirm-modal'
 gem 'kaminari'
 gem 'rails-i18n'
