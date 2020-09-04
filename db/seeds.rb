@@ -4,4 +4,5 @@ Tag.create([
         { name: 'Php' },
         { name: 'Javascript' },
         { name: 'Java' }
+        { name: 'DB' }
 ])
