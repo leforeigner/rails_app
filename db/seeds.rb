@@ -1,8 +1,7 @@
 Tag.create([
-        { name: 'Ruby' },
+        { name: 'DB' },
         { name: 'Ruby on Rails' },
         { name: 'Php' },
         { name: 'Javascript' },
         { name: 'Java' }
-        { name: 'DB' }
 ])
