@@ -8,11 +8,14 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
 gem 'simple_calendar'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
-gem 'bootstrap'
 gem 'carrierwave'
 gem 'data-confirm-modal'
 gem 'kaminari'
 gem 'rails-i18n'
+gem 'slim-rails'
+gem 'html2slim'
+gem 'bootstrap_form'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker

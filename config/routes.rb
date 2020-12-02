@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
+  resources :users
+  root "users#index"
   resources :accounts
   resources :messages
-  root to: 'blogs#index'
   resources :blogs
   resources :posts
   resources :tasks
